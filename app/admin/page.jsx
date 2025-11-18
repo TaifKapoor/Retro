@@ -1,8 +1,8 @@
 // app/admin/page.jsx
-import dynamic from 'next/dynamic';
-const SalesChart = dynamic(() => import('@/components/admin/dashboard/SalesChart'), { ssr: false });
-const TopProducts = dynamic(() => import('@/components/admin/dashboard/TopProducts'), { ssr: false });
-const RecentOrders = dynamic(() => import('@/components/admin/dashboard/RecentOrders'), { ssr: false });
+
+import RecentOrders from '@/components/admin/dashboard/RecentOrders';
+import SalesChart from '@/components/admin/dashboard/SalesChart';
+import TopProducts from '@/components/admin/dashboard/TopProducts';
 import { DollarSign, ShoppingCart, Users, TrendingUp } from 'lucide-react';
 
 async function getStats() {
