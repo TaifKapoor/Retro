@@ -2,7 +2,6 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
 export default function RecentOrders() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);

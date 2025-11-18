@@ -1,6 +1,5 @@
 // components/admin/dashboard/SalesChart.jsx
 "use client";
-
 import { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { motion } from 'framer-motion';

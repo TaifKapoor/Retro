@@ -2,7 +2,6 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
 export default function TopProducts() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
