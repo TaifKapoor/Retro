@@ -1,7 +1,7 @@
 // app/profile/page.jsx
 import { redirect } from 'next/navigation';
 import { getUserFromToken } from '@/lib/auth';
-import LogoutButton from '@/components/LogoutButton';
+
 
 export default async function ProfilePage() {
   const user = await getUserFromToken();
@@ -70,7 +70,7 @@ export default async function ProfilePage() {
                 </a>
               )}
               
-              <LogoutButton />
+             
             </div>
           </div>
         </div>
