@@ -1,0 +1,258 @@
+// data/seedData.js
+
+export const products = [
+
+  {
+    "id": "p001",
+    "name": "Breed Dry Dog Food",
+    "price": 100,
+    "originalPrice": 120,
+    "rating": 4.5,
+    "reviews": 36,
+    "images": ["https://images.pexels.com/photos/8434633/pexels-photo-8434633.jpeg"],
+    "tag": "-20%",
+    "newProduct": false,
+    "colors": ["Red", "Blue"],
+    "category": "groceries-pets"
+  },
+  {
+    "id": "p002",
+    "name": "CANON EOS DSLR Camera",
+    "price": 360,
+    "originalPrice": 400,
+    "rating": 5,
+    "reviews": 95,
+    "images": ["https://images.pexels.com/photos/249597/pexels-photo-249597.jpeg"],
+    "newProduct": true,
+    "colors": ["Black"],
+    "category": "camera"
+  },
+  {
+    "id": "p003",
+    "name": "ASUS FHD Gaming Laptop",
+    "price": 700,
+    "originalPrice": 750,
+    "rating": 4.7,
+    "reviews": 140,
+    "images": ["https://images.pexels.com/photos/18105/pexels-photo.jpg"],
+    "tag": "NEW",
+    "newProduct": true,
+    "colors": ["Gray", "Black"],
+    "category": "computers"
+  },
+  {
+    "id": "p004",
+    "name": "Curology Product Set",
+    "price": 50,
+    "originalPrice": 60,
+    "rating": 4.9,
+    "reviews": 140,
+    "images": ["https://images.pexels.com/photos/2442898/pexels-photo-2442898.jpeg"],
+    "newProduct": false,
+    "colors": ["White"],
+    "category": "health-beauty"
+  },
+  {
+    "id": "p005",
+    "name": "HAVIT HV-G92 Gamepad",
+    "price": 120,
+    "originalPrice": 160,
+    "rating": 4,
+    "reviews": 88,
+    "images": ["https://images.pexels.com/photos/159438/android-tv-game-controller.jpeg"],
+    "tag": "-40%",
+    "newProduct": false,
+    "colors": ["Black", "White"],
+    "category": "gaming"
+  },
+  {
+    "id": "p006",
+    "name": "AK-900 Wired Keyboard",
+    "price": 250,
+    "originalPrice": 300,
+    "rating": 4.8,
+    "reviews": 75,
+    "images": ["https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg"],
+    "tag": "NEW",
+    "newProduct": false,
+    "colors": ["Black"],
+    "category": "computers"
+  },
+  {
+    "id": "p007",
+    "name": "The North Coat",
+    "price": 260,
+    "originalPrice": 360,
+    "rating": 4.9,
+    "reviews": 65,
+    "images": ["https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg"],
+    "tag": "-28%",
+    "newProduct": false,
+    "colors": ["Brown"],
+    "category": "mens-fashion"
+  },
+  {
+    "id": "p008",
+    "name": "Smart Phone",
+    "price": 860,
+    "originalPrice": 760,
+    "rating": 4.9,
+    "reviews": 65,
+    "images": ["https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg"],
+    "tag": "-28%",
+    "newProduct": false,
+    "colors": ["Black", "White"],
+    "category": "phones"
+  },
+  {
+    "id": "p009",
+    "name": "Nike Air Max 270",
+    "price": 150,
+    "originalPrice": 180,
+    "rating": 4.6,
+    "reviews": 89,
+    "images": ["https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg"],
+    "tag": "-17%",
+    "newProduct": true,
+    "colors": ["Red", "White"],
+    "category": "sports"
+  },
+  {
+    "id": "p010",
+    "name": "Harry Potter Box Set",
+    "price": 80,
+    "originalPrice": 100,
+    "rating": 4.9,
+    "reviews": 320,
+    "images": ["https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg"],
+    "tag": "-20%",
+    "newProduct": false,
+    "colors": ["Black"],
+    "category": "books"
+  },
+  {
+    "id": "p011",
+    "name": "Wooden Coffee Table",
+    "price": 320,
+    "originalPrice": 400,
+    "rating": 4.4,
+    "reviews": 56,
+    "images": ["https://images.pexels.com/photos/2647714/pexels-photo-2647714.jpeg"],
+    "tag": "NEW",
+    "newProduct": true,
+    "colors": ["Brown", "Black"],
+    "category": "home-living"
+  },
+  {
+    "id": "p012",
+    "name": "Floral Summer Dress",
+    "price": 85,
+    "originalPrice": 120,
+    "rating": 4.7,
+    "reviews": 112,
+    "images": ["https://images.pexels.com/photos/291738/pexels-photo-291738.jpeg"],
+    "tag": "-29%",
+    "newProduct": true,
+    "colors": ["Pink", "Blue"],
+    "category": "womens-fashion"
+  },
+  {
+    "id": "p013",
+    "name": "Apple Watch Series 9",
+    "price": 399,
+    "originalPrice": 450,
+    "rating": 4.8,
+    "reviews": 210,
+    "images": ["https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg"],
+    "tag": "NEW",
+    "newProduct": true,
+    "colors": ["Black", "Silver"],
+    "category": "smart-watches"
+  },
+  {
+    "id": "p014",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 350,
+    "originalPrice": 400,
+    "rating": 4.9,
+    "reviews": 180,
+    "images": ["https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg"],
+    "tag": "-13%",
+    "newProduct": false,
+    "colors": ["Black", "Silver"],
+    "category": "headphones"
+  },
+  {
+    "id": "p015",
+    "name": "Instant Pot Duo 7-in-1",
+    "price": 89,
+    "originalPrice": 120,
+    "rating": 4.6,
+    "reviews": 450,
+    "images": ["https://images.pexels.com/photos/802132/pexels-photo-802132.jpeg"],
+    "tag": "-26%",
+    "newProduct": false,
+    "colors": ["Black"],
+    "category": "home-living"
+  },
+  {
+    "id": "p016",
+    "name": "Adidas Running Shoes",
+    "price": 110,
+    "originalPrice": 140,
+    "rating": 4.5,
+    "reviews": 98,
+    "images": ["https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg"],
+    "tag": "-21%",
+    "newProduct": true,
+    "colors": ["Black", "White"],
+    "category": "sports"
+  },
+  {
+    "id": "p017",
+    "name": "Leather Wallet",
+    "price": 45,
+    "originalPrice": 60,
+    "rating": 4.3,
+    "reviews": 72,
+    "images": ["https://images.pexels.com/photos/4452509/pexels-photo-4452509.jpeg"],
+    "tag": "-25%",
+    "newProduct": false,
+    "colors": ["Brown", "Black"],
+    "category": "mens-fashion"
+  },
+  {
+    "id": "p018",
+    "name": "Organic Green Tea",
+    "price": 25,
+    "originalPrice": 35,
+    "rating": 4.7,
+    "reviews": 150,
+    "images": ["https://images.pexels.com/photos/905485/pexels-photo-905485.jpeg"],
+    "tag": "-29%",
+    "newProduct": true,
+    "colors": ["Green"],
+    "category": "groceries-pets"
+  }
+];
+
+// export const homeSidebarCategories = [
+//   { name: "Women's Fashion", link: "/products?category=womens-fashion", hasSub: true },
+//   { name: "Men's Fashion", link: "/products?category=mens-fashion", hasSub: true },
+//   { name: "Electronics", link: "/products?category=electronics", hasSub: false },
+//   { name: "Home & Lifestyle", link: "/products?category=home-lifestyle", hasSub: false },
+//   { name: "Medicine", link: "/products?category=medicine", hasSub: false },
+//   { name: "Sports & Outdoor", link: "/products?category=sports-outdoor", hasSub: false },
+//   { name: "Baby’s & Toys", link: "/products?category=babys-toys", hasSub: false },
+//   { name: "Groceries & Pets", link: "/products?category=groceries-pets", hasSub: false },
+//   { name: "Health & Beauty", link: "/products?category=health-beauty", hasSub: false }
+// ];
+
+// export const categoryCards = [
+//   { name: "Phones", icon: "/images/icons/category-phone.svg", link: "/products?category=phones" },
+//   { name: "Computers", icon: "/images/icons/category-computer.svg", link: "/products?category=computers" },
+//   { name: "Smartwatch", icon: "/images/icons/category-smartwatch.svg", link: "/products?category=smartwatch" },
+//   { name: "Camera", icon: "/images/icons/category-camera.svg", link: "/products?category=camera", isHighlighted: true },
+//   { name: "Headphones", icon: "/images/icons/category-headphone.svg", link: "/products?category=headphones" },
+//   { name: "Gaming", icon: "/images/icons/category-gaming.svg", link: "/products?category=gaming" }
+// ];
