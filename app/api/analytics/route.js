@@ -1,3 +1,7 @@
+import Order from "@/models/Order";
+import Product from "@/models/Product";
+import User from "@/models/User";
+
 export async function GET() {
   await connectDB();
   const totalRevenue = await Order.aggregate([{ $group: { _id: null, total: { $sum: '$total' } } }]);

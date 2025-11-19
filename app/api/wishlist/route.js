@@ -15,7 +15,7 @@ export async function GET() {
     const cookieStore = await cookies();
     const guestId = cookieStore.get('guestId')?.value;
 
-    console.log('📝 Fetching wishlist for:', user ? `User: ${user.userId}` : `Guest: ${guestId}`);
+    console.log(' Fetching wishlist for:', user ? `User: ${user.userId}` : `Guest: ${guestId}`);
 
 
     const wishlist = await Wishlist.findOne(
