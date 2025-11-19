@@ -236,23 +236,3 @@ export const products = [
   }
 ];
 
-// export const homeSidebarCategories = [
-//   { name: "Women's Fashion", link: "/products?category=womens-fashion", hasSub: true },
-//   { name: "Men's Fashion", link: "/products?category=mens-fashion", hasSub: true },
-//   { name: "Electronics", link: "/products?category=electronics", hasSub: false },
-//   { name: "Home & Lifestyle", link: "/products?category=home-lifestyle", hasSub: false },
-//   { name: "Medicine", link: "/products?category=medicine", hasSub: false },
-//   { name: "Sports & Outdoor", link: "/products?category=sports-outdoor", hasSub: false },
-//   { name: "Baby’s & Toys", link: "/products?category=babys-toys", hasSub: false },
-//   { name: "Groceries & Pets", link: "/products?category=groceries-pets", hasSub: false },
-//   { name: "Health & Beauty", link: "/products?category=health-beauty", hasSub: false }
-// ];
-
-// export const categoryCards = [
-//   { name: "Phones", icon: "/images/icons/category-phone.svg", link: "/products?category=phones" },
-//   { name: "Computers", icon: "/images/icons/category-computer.svg", link: "/products?category=computers" },
-//   { name: "Smartwatch", icon: "/images/icons/category-smartwatch.svg", link: "/products?category=smartwatch" },
-//   { name: "Camera", icon: "/images/icons/category-camera.svg", link: "/products?category=camera", isHighlighted: true },
-//   { name: "Headphones", icon: "/images/icons/category-headphone.svg", link: "/products?category=headphones" },
-//   { name: "Gaming", icon: "/images/icons/category-gaming.svg", link: "/products?category=gaming" }
-// ];
